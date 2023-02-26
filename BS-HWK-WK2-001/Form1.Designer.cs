@@ -1,6 +1,6 @@
 ﻿namespace BS_HWK_WK2_001
 {
-    partial class Form1
+    partial class HomeView
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // HomeView
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Name = "HomeView";
+            this.Text = "HomeView";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

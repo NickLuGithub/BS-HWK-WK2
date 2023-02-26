@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BS_HWK_WK2_001
 {
-    public partial class Form1 : Form
+    public partial class HomeView : Form
     {
-        public Form1()
+        public HomeView()
         {
             InitializeComponent();
         }
